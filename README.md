@@ -1,9 +1,8 @@
 # mapthing
 
 ## Project setup
-```
-npm install
-```
+
+Will need Node v8.11+, npm v6.9+ and Vue-cli v3.7+. To get Node and npm - download "Node.js" from internet. Then, to get vue-cli use `npm i -g @vue/cli` (to update, uninstall first). And finally, run `npm install` to get project dependencies.
 
 ### Compiles and hot-reloads for development
 ```
@@ -20,5 +19,3 @@ npm run build
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
