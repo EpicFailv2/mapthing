@@ -86,6 +86,8 @@ export default {
       this.parts.alt = this.makeAltitudeText(markerData.altitude);
       this.canvas.add(this.parts.alt);
 
+      this.parts.direction.angle = markerData.heading;
+
       return this.canvas.toDataURL();
     },
     bringTextsToFront() {
